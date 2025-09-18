@@ -1,0 +1,10 @@
+<div class="cards">
+  <app-post-card
+    #postCardRef="postCard"
+    [title]="'Post One'"
+    [content]="'This is content of post card'"
+    (liked)="onLiked()"
+  />
+
+  <button (click)="postCardRef.onLike($event)">Call Like</button>
+</div>

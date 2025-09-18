@@ -1,0 +1,9 @@
+<div class="card" (click)="onCardClick()" [ngClass]="{ active: isActive }">
+  <h2>[[ title ]] </h2>
+  <p>[[ content ]]</p>
+  <button (click)="onLike($event)">❤️ Like</button>
+
+
+  <div class="yt-post"></div>
+</div>
+

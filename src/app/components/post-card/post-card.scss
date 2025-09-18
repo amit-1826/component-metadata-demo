@@ -1,0 +1,31 @@
+.card {
+    width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+
+  &.active {
+    border: 2px solid #007acc;
+    transform: scale(1.02);
+  }
+
+  h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  button {
+    background: #007acc;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background: #005fa3;
+    }
+  }
+}
